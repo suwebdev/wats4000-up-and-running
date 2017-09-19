@@ -1,5 +1,5 @@
 <template>
-  <div class="hello">
+  <div class="editor">
     <textarea :value="input" @input="update"></textarea>
     <div v-html="compiledMarkdown"></div>
   </div>
@@ -7,10 +7,10 @@
 
 <script>
 export default {
-  name: 'hello',
+  name: 'editor',
   data () {
     return {
-      input: '# hello'
+      input: '# hello world'
     }
   },
   computed: {
@@ -28,14 +28,12 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-.hello {
+.editor {
   margin: 0;
   height: 100%;
-  font-family: 'Helvetica Neue', Arial, sans-serif;
-  color: #333;
 }
 
-textarea, .hello div {
+textarea, .editor div {
   display: inline-block;
   width: 49%;
   height: 75vh;
