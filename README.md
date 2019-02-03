@@ -15,7 +15,7 @@ bootstrap a new project skeleton.
 ## Before You Begin
 
 Be sure to set up your local development environment first. You can follow the
-guidance in [Practical JavaScript 2: Building Applications](https://shawnr.gitbooks.io/practical-javascript-2-building-applications/setting-up-workspace/) to get
+guidance in [Practical JavaScript 2: Building Applications](https://suwebdev.github.io/WATS-4000-gitbook/setting-up-workspace/) to get
 started. Don't hesitate to supplement that resource with others specific to your
 platform.
 
