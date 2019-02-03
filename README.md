@@ -33,25 +33,27 @@ requirements.
 * Fork this repository into your own Github account.
 * Clone this repository to your working development environment.
 * Install dependencies by running `npm install` in the root of the repository.
-* Test the site by running `npm run dev` to start the development server.
+* Test the site by running `npm run serve` to start the development server.
 * Read through the site code and note the following:
     * What directories do you see? How do you interpret their names?
     * Where is the Vue app defined? (Which file?)
     * What is listed in `package.json`?
-    * What do you see in the `build` and `config` directories?
+    * What do you see in the `config.js` directories?
 * Press `ctrl-c` in the terminal to exit the development server.
-* Run `npm run build --report` and take a look at both the webpage that comes up and the output in the console. Consider the following questions:
-    * What are you looking at in the "build report" that pops up in the web browser?
-    * Can you tell which files are the largest in the project?
-    * Does the custom code of the app (look for the blue box) make up the largest of the filesize? If not, what creates the most bulk in terms of file downloads?
-    * What do you see in the console output? How do you interpret that information?
-    * When you're finished you can exit the build report by typing `ctrl-c` to quit.
-* Look at the directories in your project again and notice that there is a new one called `dist`.
-    * Explore the `dist` directory. What do you see?
+* Run `npm run build` and take a look at both the webpage that comes up and the output in the console.  
+Consider the following questions:
+    * what is in the node_modules directory?
+    * where can you find the directions for the scripts run with `npm run`, that is the `serve` and `build` scripts  
+    * what's the difference between the `dependencies` and `devDependencies object in the package.json file?
+    * Explore the `docs` directory. What do you see?
     * Do you see the filenames of the static files? What seems odd about those filenames?
     * Do you see the contents of your JS and CSS files? What has happened to those contents?
-    * Describe (in words or with a flowchart/diagram) what happens when the `npm run build` command is executed to the best of your ability.
-* Make a diagram of the components of this system like the ones shown in the Practical JavaScript 2: Building Applications book. Do your best to document your interpretation of the architecture of this system.
+    * Three config files have been supplied for you: `vue.config.js`, `aliases.config.js` and `.babel.config.js`. What is the general purpose of each file.  
+    * Describe (in words and with a flowchart/diagram) what happens when the `npm run build` command is executed to the best of your ability.  
+    * Make a diagram of the components of this system like the ones shown in the Practical JavaScript 2: Building Applications book `Types of Website Architectures`. Do your best to document your interpretation of the architecture of this system.
+    
+* Deploy your code to github.com and set up gh-pages on the `docs` directory.
+
 
 
 ## Stretch Goals
@@ -69,13 +71,11 @@ The following commands will help you work with this project.
 npm install
 
 # serve with hot reload at localhost:8080
-npm run dev
+npm run serve
 
 # build for production with minification
 npm run build
 
-# build for production and view the bundle analyzer report
-npm run build --report
 ```
 
-For detailed explanation on how Vue works, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+For detailed explanation on how Vue works, check out the [guide](https://cli.vuejs.org/guide/) and [docs for vue-loader](https://cli.vuejs.org/config/#css-loaderoptions).
