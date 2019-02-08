@@ -38,7 +38,6 @@ requirements.
     * What directories do you see? How do you interpret their names?
     * Where is the Vue app defined? (Which file?)
     * What is listed in `package.json`?
-    * What do you see in the `config.js` directories?
 * Press `ctrl-c` in the terminal to exit the development server.
 * Run `npm run build` and take a look at both the webpage that comes up and the output in the console.  
 Consider the following questions:
