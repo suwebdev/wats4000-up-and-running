@@ -43,7 +43,7 @@ requirements.
 Consider the following questions:
     * what is in the node_modules directory?
     * where can you find the directions for the scripts run with `npm run`, that is the `serve` and `build` scripts  
-    * what's the difference between the `dependencies` and `devDependencies object in the package.json file?
+    * what's the difference between the `dependencies` and `devDependencies` object in the package.json file?
     * Explore the `docs` directory. What do you see?
     * Do you see the filenames of the static files? What seems odd about those filenames?
     * Do you see the contents of your JS and CSS files? What has happened to those contents?
